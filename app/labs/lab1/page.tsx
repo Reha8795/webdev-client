@@ -14,7 +14,7 @@ export default function Lab1() {
       <h2>Lab 1 — HTML Components</h2>
 
       {/* Full Canvas name + section (§1.7) — must match the roster exactly */}
-      <h3 id="wd-name">Reha Jambavadekar</h3>
+      <h3 id="wd-name">Reha Bhalchandra Jambavadekar</h3>
       <h4>Section: CS 5610-09 (CRN 21441)</h4>
 
       {/* GitHub link (§1.5) — required on Labs */}

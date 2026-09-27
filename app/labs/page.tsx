@@ -6,7 +6,7 @@ export default function Labs() {
       <h1>Labs</h1>
 
       {/* Full Canvas name on Labs index too */}
-      <h3 id="wd-name">Reha Jambavadekar</h3>
+      <h3 id="wd-name">Reha Bhalchandra Jambavadekar</h3>
       <h4>Section: CS 5610-09 (CRN 21441)</h4>
 
       <ul>
