@@ -5,7 +5,7 @@ export default function TextArea() {
       <label>
         Comments
         <br />
-        <textarea rows={4} cols={30} defaultValue="Type multiple lines here..." />
+        <textarea id="wd-textarea" rows={4} cols={30} defaultValue="Type multiple lines here..." />
       </label>
     </div>
   );

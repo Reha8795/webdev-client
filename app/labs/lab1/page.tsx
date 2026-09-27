@@ -42,6 +42,7 @@ export default function Lab1() {
         <h4>Highlighted Paragraphs</h4>
         {/* On your own: your text and colors */}
         <HighlightedParagraph
+          id="wd-highlighted-paragraph"
           text="This is my highlighted paragraph in my colors."
           color="white"
           backgroundColor="darkgreen"
@@ -59,7 +60,7 @@ export default function Lab1() {
       <div id="wd-highlighted-boxes">
         <h4>Highlighted Boxes</h4>
         {/* On your own: wrap your goals list */}
-        <HighlightedBox color="white" backgroundColor="#334155">
+        <HighlightedBox id="wd-highlighted-box" color="white" backgroundColor="#334155">
           <h5>My Goals</h5>
           <ul>
             <li>Land a Data / SDE co-op</li>

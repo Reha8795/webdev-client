@@ -1,6 +1,7 @@
 interface HighlightedBoxProps {
   color?: string;
   backgroundColor?: string;
+  id?: string;
   children: React.ReactNode;
 }
 
@@ -8,10 +9,11 @@ interface HighlightedBoxProps {
 export default function HighlightedBox({
   color = "black",
   backgroundColor = "#eef",
+  id,
   children,
 }: HighlightedBoxProps) {
   return (
-    <div style={{ color, backgroundColor, padding: 12, border: "1px solid #99c" }}>
+    <div id={id} style={{ color, backgroundColor, padding: 12, border: "1px solid #99c" }}>
       {children}
     </div>
   );

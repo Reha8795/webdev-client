@@ -4,12 +4,12 @@ export default function TextFields() {
       <h5>Text Fields</h5>
       <label>
         Username{" "}
-        <input placeholder="Enter username" defaultValue="alice" />
+        <input id="wd-text-fields-username" placeholder="Enter username" defaultValue="alice" />
       </label>
       <br />
       <label>
         Email{" "}
-        <input type="email" placeholder="you@example.com" />
+        <input id="wd-text-fields-email" type="email" placeholder="you@example.com" />
       </label>
       <br />
       <label>
