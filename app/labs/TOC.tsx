@@ -9,7 +9,7 @@ export default function TOC() {
       <Link id="wd-lab3-link" href="/labs/lab3">Lab 3</Link>
       <Link href="/labs/lab4">Lab 4</Link>
       <Link href="/labs/lab5">Lab 5</Link>
-      <Link href="/">Kambaz</Link>
+      <Link id="wd-kambaz-link" href="/">Kambaz</Link>
 
       {/* On your own (manual check): a personal note in the TOC */}
       <span id="wd-toc-note"> | Reha Jambavadekar — “ship it.”</span>

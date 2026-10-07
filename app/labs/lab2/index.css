@@ -1,0 +1,66 @@
+/* Lab 2 — external stylesheet (§2.1) */
+
+/* --- id selectors --- */
+#wd-css-id-selectors { background-color: #e0f2fe; padding: 8px; }
+#wd-id-heading-1 { color: red; }
+#wd-id-heading-2 { color: blue; }
+
+/* --- class selectors --- */
+.wd-css-class-selectors { background-color: #ecfccb; padding: 8px; }
+.wd-rounded-red { color: white; background-color: crimson; padding: 6px; border-radius: 8px; }
+.wd-dimmed { opacity: 0.5; }
+
+/* --- document-structure selectors --- */
+#wd-css-document-structure > p { color: #334155; }
+#wd-css-document-structure li a { text-decoration: underline; }
+
+/* --- color & background --- */
+.wd-fg-color-red { color: red; }
+.wd-bg-color-yellow { background-color: yellow; }
+
+/* --- borders --- */
+.wd-border-red { border: 2px solid red; }
+.wd-border-dashed { border: 3px dashed green; }
+
+/* --- padding / margin / box model --- */
+.wd-padding-10 { padding: 10px; }
+.wd-margin-10 { margin: 10px; }
+.wd-bordered-box { border: 1px solid #94a3b8; }
+
+/* --- rounded corners --- */
+.wd-rounded-corners { border: 2px solid #0ea5e9; border-radius: 12px; padding: 8px; }
+
+/* --- dimensions --- */
+.wd-dimensions { width: 200px; height: 80px; background-color: #fde68a; }
+
+/* --- display --- */
+.wd-display-none { display: none; }
+.wd-display-inline { display: inline; }
+.wd-display-block { display: block; }
+
+/* --- positions --- */
+#wd-css-positions .wd-relative { position: relative; top: 10px; left: 10px; background:#fecaca; }
+#wd-css-positions .wd-absolute { position: absolute; top: 0; right: 0; background:#bbf7d0; }
+#wd-css-positions .wd-pos-container { position: relative; height: 120px; border:1px solid #cbd5e1; }
+
+/* --- z-index --- */
+#wd-css-z-index .wd-z-1 { position: absolute; z-index: 1; background:#93c5fd; width:80px; height:80px; }
+#wd-css-z-index .wd-z-2 { position: absolute; z-index: 2; left:40px; top:40px; background:#fca5a5; width:80px; height:80px; }
+#wd-css-z-index .wd-z-container { position: relative; height: 140px; }
+
+/* --- float --- */
+#wd-css-float .wd-float-left { float: left; width: 100px; height: 100px; background:#c4b5fd; margin-right:8px; }
+
+/* --- grid --- */
+#wd-css-grid .wd-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+#wd-css-grid .wd-grid > div { background:#a7f3d0; padding: 12px; text-align:center; }
+
+/* --- flex --- */
+#wd-css-flex .wd-flex { display: flex; gap: 8px; }
+#wd-css-flex .wd-flex > div { background:#fbcfe8; padding: 12px; flex: 1; text-align:center; }
+
+/* --- media queries --- */
+#wd-media-queries-demo .wd-media-box { background-color: #0ea5e9; color: white; padding: 16px; }
+@media (max-width: 600px) {
+  #wd-media-queries-demo .wd-media-box { background-color: #f59e0b; }
+}

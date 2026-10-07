@@ -20,7 +20,7 @@ export default function Labs() {
       </ul>
 
       {/* Kambaz link so graders can reach every required page */}
-      <p><Link href="/">Kambaz</Link></p>
+      <p><Link id="wd-kambaz-link" href="/">Kambaz</Link></p>
 
       {/* GitHub link required on Labs (§1.5) */}
       <p>
