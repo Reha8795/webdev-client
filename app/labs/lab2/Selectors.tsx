@@ -16,7 +16,7 @@ export default function Selectors() {
       </div>
 
       {/* class selectors */}
-      <div className="wd-css-class-selectors">
+      <div id="wd-css-class-selectors" className="wd-css-class-selectors">
         <h4>Class Selectors</h4>
         <span className="wd-rounded-red">rounded-red</span>{" "}
         <span className="wd-dimmed">dimmed</span>
