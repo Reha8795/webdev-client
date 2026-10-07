@@ -7,7 +7,9 @@ export default function Spacing() {
         <div className="p-4 bg-sky-300">p-4</div>
         <div className="p-6 bg-sky-400">p-6</div>
       </div>
-      <div className="mt-4 ml-8 bg-emerald-200 inline-block px-3">mt-4 ml-8</div>
+      <div className="mt-4 mb-4 ms-4 me-4 m-4 px-4 py-4 bg-emerald-200 inline-block">
+        ms-4 me-4 mt-4 mb-4 p-4
+      </div>
     </div>
   );
 }

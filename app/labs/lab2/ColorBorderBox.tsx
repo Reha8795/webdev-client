@@ -4,8 +4,12 @@ export default function ColorBorderBox() {
       <h3>Color, Border, and Box Model</h3>
 
       <div id="wd-css-colors">
-        <h4>Color &amp; Background</h4>
-        <span className="wd-fg-color-red">red text</span>{" "}
+        <h4>Color</h4>
+        <span className="wd-fg-color-red">red text</span>
+      </div>
+
+      <div id="wd-css-background-colors">
+        <h4>Background Colors</h4>
         <span className="wd-bg-color-yellow">yellow background</span>
       </div>
 
@@ -15,7 +19,7 @@ export default function ColorBorderBox() {
         <div className="wd-border-dashed wd-padding-10">dashed green border</div>
       </div>
 
-      <div id="wd-css-padding">
+      <div id="wd-css-paddings">
         <h4>Padding</h4>
         <div className="wd-bordered-box wd-padding-10">padding 10px</div>
       </div>
@@ -25,7 +29,7 @@ export default function ColorBorderBox() {
         <div className="wd-bordered-box wd-margin-10">margin 10px</div>
       </div>
 
-      <div id="wd-box-model">
+      <div id="wd-css-box-model">
         <h4>Box Model</h4>
         <div className="wd-bordered-box wd-padding-10 wd-margin-10">
           content + padding + border + margin

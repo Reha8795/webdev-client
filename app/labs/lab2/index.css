@@ -64,3 +64,19 @@
 @media (max-width: 600px) {
   #wd-media-queries-demo .wd-media-box { background-color: #f59e0b; }
 }
+
+/* --- A2 canonical selector samples --- */
+#wd-id-selector-1 { color: red; }
+#wd-id-selector-2 { color: blue; }
+.wd-class-selector { font-weight: bold; color: crimson; }
+#wd-selector-1 { font-style: italic; }
+
+/* box model canonical ids */
+#wd-css-background-colors { padding: 4px; }
+#wd-css-paddings .wd-padding-10 { padding: 10px; }
+#wd-css-box-model { padding: 4px; }
+
+/* position canonical ids */
+#wd-css-position-static { position: static; background:#e2e8f0; }
+#wd-css-position-relative { position: relative; top: 6px; background:#fecaca; }
+#wd-css-position-absolute { position: absolute; top: 0; right: 0; background:#bbf7d0; }

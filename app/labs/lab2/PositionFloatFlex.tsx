@@ -6,8 +6,12 @@ export default function PositionFloatFlex() {
       <div id="wd-css-positions">
         <h4>Positions</h4>
         <div className="wd-pos-container">
-          <div className="wd-relative">relative</div>
-          <div className="wd-absolute">absolute</div>
+          <div id="wd-css-position-static" className="wd-relative">static</div>
+          <div id="wd-css-position-relative" className="wd-relative">relative</div>
+          <div id="wd-css-position-absolute" className="wd-absolute">absolute</div>
+          <div id="wd-css-position-fixed" style={{ position: "fixed", bottom: 8, right: 8, background: "#fde68a", padding: 4, zIndex: 50 }}>
+            fixed
+          </div>
         </div>
       </div>
 
@@ -40,7 +44,7 @@ export default function PositionFloatFlex() {
         </div>
       </div>
 
-      <div id="wd-media-queries-demo">
+      <div id="wd-media-queries-demo" className="wd-media-queries-demo">
         <h4>Media Queries</h4>
         <div className="wd-media-box">
           Blue above 600px, orange at/below 600px — resize the window.
