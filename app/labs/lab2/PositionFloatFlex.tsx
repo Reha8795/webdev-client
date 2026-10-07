@@ -17,7 +17,7 @@ export default function PositionFloatFlex() {
 
       <div id="wd-css-z-index">
         <h4>Z-Index</h4>
-        <div className="wd-z-container">
+        <div id="wd-z-index" className="wd-z-container">
           <div className="wd-z-1">z-1</div>
           <div className="wd-z-2">z-2</div>
         </div>
@@ -25,13 +25,13 @@ export default function PositionFloatFlex() {
 
       <div id="wd-css-float">
         <h4>Float</h4>
-        <div className="wd-float-left">float left</div>
+        <div id="wd-float-divs"><div className="wd-float-left">float left</div></div>
         <p>Text wraps around the floated box to its right. Lorem ipsum dolor sit amet.</p>
       </div>
 
       <div id="wd-css-grid">
         <h4>Grid</h4>
-        <div className="wd-grid">
+        <div id="wd-css-grid-layout" className="wd-grid">
           <div>1</div><div>2</div><div>3</div>
           <div>4</div><div>5</div><div>6</div>
         </div>
