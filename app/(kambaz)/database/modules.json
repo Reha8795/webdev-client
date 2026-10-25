@@ -1,0 +1,7 @@
+[
+  { "_id": "m101", "course": "1234", "name": "Week 1 — HTML", "lessons": ["Intro to the course", "What is HTML", "Dev environment"] },
+  { "_id": "m102", "course": "1234", "name": "Week 2 — CSS", "lessons": ["Styling with CSS", "Flexbox and Grid", "Tailwind"] },
+  { "_id": "m103", "course": "1234", "name": "Week 3 — JavaScript", "lessons": ["Variables and functions", "Arrays and objects", "JSX"] },
+  { "_id": "m201", "course": "2345", "name": "Week 1 — Relational Model", "lessons": ["Tables and keys", "ER diagrams"] },
+  { "_id": "m202", "course": "2345", "name": "Week 2 — SQL", "lessons": ["SELECT basics", "Joins", "Aggregations"] }
+]

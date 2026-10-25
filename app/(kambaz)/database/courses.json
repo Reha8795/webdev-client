@@ -1,0 +1,5 @@
+[
+  { "_id": "1234", "name": "Web Development", "number": "CS5610", "term": "Fall 2026", "color": "bg-sky-700" },
+  { "_id": "2345", "name": "Database Management Systems", "number": "CS5200", "term": "Fall 2026", "color": "bg-emerald-700" },
+  { "_id": "3456", "name": "Programming Design Paradigm", "number": "CS5010", "term": "Fall 2026", "color": "bg-rose-700" }
+]
