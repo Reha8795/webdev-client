@@ -5,3 +5,6 @@
 .wd-box-purple { background-color: #7c3aed; }
 .wd-box-orange { background-color: #ea580c; }
 .wd-box-teal { background-color: #0d9488; }
+
+/* exercise category badges */
+.wd-own-tag { display:inline-block; background:#7c3aed; color:#fff; font-size:11px; font-weight:600; padding:2px 7px; border-radius:4px; margin-left:8px; vertical-align:middle; }

@@ -42,22 +42,22 @@ export default function Lab3() {
       <p>Arrow function (x) =&gt; x * 2 applied to 21 = {((x: number) => x * 2)(21)}</p>
       <hr />
 
-      <h3>If Else</h3>
+      <h3>If Else <span className="wd-own-tag">On Your Own</span></h3>
       <p>{5 > 1 ? "true1" : "false1"}</p>
       <p>{5 < 1 ? "true2" : "false1"}</p>
       <p>{`not ${5 < 1 ? "true2" : "false1"}`}</p>
       <hr />
 
-      <h3>Ternary</h3>
+      <h3>Ternary <span className="wd-own-tag">On Your Own</span></h3>
       <p>{hour < 12 ? "Good morning" : "Good afternoon"}</p>
       <hr />
 
-      <h3>Inline Conditional</h3>
+      <h3>Inline Conditional <span className="wd-own-tag">On Your Own</span></h3>
       <p>{loggedIn ? "Welcome back" : "Guest"}</p>
       <p>{!loggedIn && "Guest Inline"}</p>
       <hr />
 
-      <h3>Nullish Coalescing</h3>
+      <h3>Nullish Coalescing <span className="wd-own-tag">On Your Own</span></h3>
       <p>nullValue ?? &quot;default&quot; = {nullValue ?? "default"}</p>
       <hr />
 
@@ -97,18 +97,18 @@ export default function Lab3() {
       <pre id="wd-json-stringify">{JSON.stringify(person, null, 2)}</pre>
       <hr />
 
-      <h3>House</h3>
+      <h3>House <span className="wd-own-tag">On Your Own</span></h3>
       <p>Bedrooms: {house.bedrooms}</p>
       <p>Bathrooms: {house.bathrooms}</p>
       <h5>owners</h5>
       <p>{house.owners.join(", ")}</p>
       <hr />
 
-      <h3>Optional Chaining</h3>
+      <h3>Optional Chaining <span className="wd-own-tag">On Your Own</span></h3>
       <p>house.garage?.cars ?? 0 = {house.garage?.cars ?? 0}</p>
       <hr />
 
-      <h3>Import Styles</h3>
+      <h3>Import Styles <span className="wd-own-tag">On Your Own</span></h3>
       <table id="wd-imports-table" border={1} cellPadding={6}>
         <thead>
           <tr><th>Default Object</th><th>Namespace</th><th>Named Functions</th></tr>
@@ -124,7 +124,7 @@ export default function Lab3() {
       <p>add(10, 20) = 30</p>
       <hr />
 
-      <h3>Style Objects</h3>
+      <h3>Style Objects <span className="wd-own-tag">On Your Own</span></h3>
       <div id="wd-style-objects">
         <div style={{ backgroundColor: "red", color: "white", padding: 16, margin: 4, display: "inline-block", width: 110, textAlign: "center", borderRadius: 6 }}>red</div>
         <div style={{ backgroundColor: "blue", color: "white", padding: 16, margin: 4, display: "inline-block", width: 110, textAlign: "center", borderRadius: 6 }}>blue</div>
@@ -133,7 +133,7 @@ export default function Lab3() {
       </div>
       <hr />
 
-      <h3>CSS Classes</h3>
+      <h3>CSS Classes <span className="wd-own-tag">On Your Own</span></h3>
       <div id="wd-css-classes">
         <div className="wd-bg-box wd-box-red">red</div>
         <div className="wd-bg-box wd-box-blue">blue</div>
@@ -144,20 +144,20 @@ export default function Lab3() {
       </div>
       <hr />
 
-      <h3>Client Component</h3>
+      <h3>Client Component <span className="wd-own-tag">On Your Own</span></h3>
       <ClientPathname />
       <hr />
 
-      <h3>Server Component</h3>
+      <h3>Server Component <span className="wd-own-tag">On Your Own</span></h3>
       <ServerInfo />
       <hr />
 
-      <h3>Add Component</h3>
+      <h3>Add Component <span className="wd-own-tag">On Your Own</span></h3>
       <Add a={2} b={3} />
       <Add a={10} b={20} />
       <hr />
 
-      <h3>Path Parameters</h3>
+      <h3>Path Parameters <span className="wd-own-tag">On Your Own</span></h3>
       <ul id="wd-path-parameters">
         <li><Link href="/labs/lab3/add/12/30">/labs/lab3/add/12/30</Link></li>
         <li><Link href="/labs/lab3/add/5/7">/labs/lab3/add/5/7</Link></li>
@@ -165,7 +165,7 @@ export default function Lab3() {
       </ul>
       <hr />
 
-      <h3>Todo List</h3>
+      <h3>Todo List <span className="wd-own-tag">On Your Own</span></h3>
       <TodoList />
     </div>
   );
