@@ -17,9 +17,9 @@ export default function Dashboard() {
               <div className={`h-[140px] ${c.color}`} />
               <div className="p-3">
                 <h5 className="wd-dashboard-course-title font-semibold text-sky-700">
-                  {c.number} — {c.name}
+                  {c.name}
                 </h5>
-                <p className="text-sm text-slate-500">{c.name}</p>
+                <p className="text-sm text-slate-500">{c.number}</p>
                 <p className="text-xs text-slate-400 mt-6">{c.term}</p>
               </div>
             </Link>

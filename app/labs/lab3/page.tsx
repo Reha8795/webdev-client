@@ -43,16 +43,9 @@ export default function Lab3() {
       <hr />
 
       <h3>If Else</h3>
-      {(() => {
-        const out: string[] = [];
-        if (hour < 12) out.push("true1"); else out.push("false1");
-        if (hour > 12) out.push("true2"); else out.push("false2");
-        return (<>
-          <p>{out[0]}</p>
-          <p>{out[1]}</p>
-          <p>not {out[1]}</p>
-        </>);
-      })()}
+      <p>{5 > 1 ? "true1" : "false1"}</p>
+      <p>{5 < 1 ? "true2" : "false1"}</p>
+      <p>{`not ${5 < 1 ? "true2" : "false1"}`}</p>
       <hr />
 
       <h3>Ternary</h3>
@@ -142,12 +135,12 @@ export default function Lab3() {
 
       <h3>CSS Classes</h3>
       <div id="wd-css-classes">
-        <span className="wd-bg-box wd-box-red">red</span>
-        <span className="wd-bg-box wd-box-blue">blue</span>
-        <span className="wd-bg-box wd-box-green">green</span>
-        <span className="wd-bg-box wd-box-purple">purple</span>
-        <span className="wd-bg-box wd-box-orange">orange</span>
-        <span className="wd-bg-box wd-box-teal">teal</span>
+        <div className="wd-bg-box wd-box-red">red</div>
+        <div className="wd-bg-box wd-box-blue">blue</div>
+        <div className="wd-bg-box wd-box-green">green</div>
+        <div className="wd-bg-box wd-box-purple">purple</div>
+        <div className="wd-bg-box wd-box-orange">orange</div>
+        <div className={`wd-bg-box ${house.bedrooms > 2 ? "wd-box-teal" : "wd-box-red"}`}>six</div>
       </div>
       <hr />
 

@@ -18,7 +18,7 @@ export default async function CoursesLayout({
 }: { children: React.ReactNode; params: Promise<{ cid: string }> }) {
   const { cid } = await params;
   const course = courses.find((c) => c._id === cid);
-  const courseName = course ? `${course.number} ${course.name}` : `Course ${cid}`;
+  const courseName = course ? course.name : `Course ${cid}`;
   return (
     <div id="wd-courses">
       <Breadcrumb courseName={courseName} />
