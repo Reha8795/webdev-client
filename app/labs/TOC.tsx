@@ -7,6 +7,7 @@ const items = [
   { href: "/labs/lab1", label: "Lab 1", id: "wd-lab1-link" },
   { href: "/labs/lab2", label: "Lab 2", id: "wd-lab2-link" },
   { href: "/labs/lab3", label: "Lab 3", id: "wd-lab3-link" },
+  { href: "/labs/lab4", label: "Lab 4", id: "wd-lab4-link" },
 ];
 
 export default function TOC() {

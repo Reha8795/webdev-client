@@ -1,22 +1,24 @@
+"use client";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { useAccountStore } from "../../stores/accountStore";
 
 export default function Profile() {
+  const currentUser = useAccountStore((s) => s.currentUser);
+  const signout = useAccountStore((s) => s.signout);
+  const router = useRouter();
+  useEffect(() => { if (!currentUser) router.replace("/account/signin"); }, [currentUser, router]);
+  if (!currentUser) return null; // no user details shown when signed out
+  const field = "w-full border border-slate-300 rounded px-3 py-2 mb-3";
   return (
     <div id="wd-profile-screen">
       <h3 className="text-lg font-semibold mb-3">Profile</h3>
-      <input id="wd-username" defaultValue="reha" placeholder="username" className="w-full border border-slate-300 rounded px-3 py-2 mb-3" />
-      <input id="wd-password" type="password" defaultValue="secret" className="w-full border border-slate-300 rounded px-3 py-2 mb-3" />
-      <input id="wd-firstname" defaultValue="Reha" placeholder="first name" className="w-full border border-slate-300 rounded px-3 py-2 mb-3" />
-      <input id="wd-lastname" defaultValue="Jambavadekar" placeholder="last name" className="w-full border border-slate-300 rounded px-3 py-2 mb-3" />
-      <input id="wd-dob" type="date" defaultValue="2001-01-01" className="w-full border border-slate-300 rounded px-3 py-2 mb-3" />
-      <input id="wd-email" type="email" defaultValue="jambavadekar.r@northeastern.edu" className="w-full border border-slate-300 rounded px-3 py-2 mb-3" />
-      <select id="wd-role" defaultValue="USER" className="w-full border border-slate-300 rounded px-3 py-2 mb-3">
-        <option value="USER">User</option><option value="ADMIN">Admin</option>
-        <option value="FACULTY">Faculty</option><option value="STUDENT">Student</option>
-      </select>
-      <Link id="wd-signout-btn" href="/account/signin">
-        <button type="button" className="w-full bg-red-600 text-white rounded px-3 py-2 hover:bg-red-700">Sign out</button>
-      </Link>
+      <input id="wd-username" className={field} defaultValue={currentUser.username} />
+      <input id="wd-firstname" className={field} defaultValue={currentUser.firstName} />
+      <input id="wd-lastname" className={field} defaultValue={currentUser.lastName} />
+      <button id="wd-signout-btn" className="w-full bg-red-600 text-white rounded px-3 py-2"
+        onClick={() => { signout(); router.push("/account/signin"); }}>Sign out</button>
     </div>
   );
 }
