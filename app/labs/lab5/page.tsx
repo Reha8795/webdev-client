@@ -1,4 +1,4 @@
-const SERVER = process.env.NEXT_PUBLIC_HTTP_SERVER || "https://webdev-server.onrender.com";
+const SERVER = process.env.NEXT_PUBLIC_HTTP_SERVER || "https://webdev-server-adhz.onrender.com";
 const SERVER_REPO = "https://github.com/Reha8795/webdev-server";
 
 function Row({ title, href, label }: { title: string; href: string; label?: string }) {

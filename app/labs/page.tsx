@@ -29,7 +29,7 @@ export default function Labs() {
         </a>
       </p>
       <p><a id="wd-server-github" href="https://github.com/Reha8795/webdev-server">webdev-server GitHub repository</a></p>
-      <p><a id="wd-server-link" href={process.env.NEXT_PUBLIC_HTTP_SERVER || "https://webdev-server.onrender.com"}>Deployed server root</a></p>
+      <p><a id="wd-server-link" href={process.env.NEXT_PUBLIC_HTTP_SERVER || "https://webdev-server-adhz.onrender.com"}>Deployed server root</a></p>
     </div>
   );
 }
